@@ -4,7 +4,7 @@
 
             <div class="space-y-4 md:col-span-2">
                 <a href="/" class="inline-block transition-opacity hover:opacity-90" aria-label="Artenu">
-                    <img src="{{ asset('images/logo.png') }}" alt="Artenu" class="h-8 w-auto sm:h-9">
+                    <img src="{{ asset("images/logo.png") }}" alt="Artenu" class="h-8 w-auto sm:h-9">
                 </a>
                 <p class="max-w-sm text-sm leading-relaxed text-slate-600">
                     {{ __("messages.footer.tagline") }}
@@ -15,13 +15,16 @@
                 <p class="mb-4 font-mono text-xs font-bold uppercase tracking-wider text-slate-900">
                     {{ __("messages.footer.nav_title") }}</p>
                 <ul class="space-y-2.5 text-sm text-slate-600">
-                    <li><a href="#layanan" class="transition hover:text-brand-primary">{{ __("messages.nav.services") }}</a>
+                    <li><a href="#layanan"
+                            class="hover:text-brand-primary transition">{{ __("messages.nav.services") }}</a>
                     </li>
                     <li><a href="#portofolio"
-                            class="transition hover:text-brand-primary">{{ __("messages.nav.case_studies") }}</a></li>
-                    <li><a href="#tentang" class="transition hover:text-brand-primary">{{ __("messages.nav.about") }}</a>
+                            class="hover:text-brand-primary transition">{{ __("messages.nav.case_studies") }}</a></li>
+                    <li><a href="#tentang"
+                            class="hover:text-brand-primary transition">{{ __("messages.nav.about") }}</a>
                     </li>
-                    <li><a href="#kontak" class="transition hover:text-brand-primary">{{ __("messages.nav.contact") }}</a>
+                    <li><a href="#kontak"
+                            class="hover:text-brand-primary transition">{{ __("messages.nav.contact") }}</a>
                     </li>
                 </ul>
             </div>
@@ -33,11 +36,12 @@
                     <li>
                         <a href="https://www.google.com/maps/dir/PT.ARMADA+LOGISTIC+INDONESIA,+Jl.+Perjuangan+No.11F,+RT.1%2FRW.7,+Kb.+Jeruk,+Kec.+Kb.+Jeruk,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11530/Kosan+40,+RQ47%2BHQ6,+RT.9%2FRW.10,+Kb.+Jeruk,+Kec.+Kb.+Jeruk,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11530/@-6.1937755,106.7610947,911m/data=!3m1!1e3!4m13!4m12!1m5!1m1!1s0x2e69f7006d60d671:0xb3bb7fef6b2b468f!2m2!1d106.7590156!2d-6.1910954!1m5!1m1!1s0x2e69f7d805b725e3:0x27c9dea71249acb3!2m2!1d106.76438!2d-6.1936068?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
                             target="_blank" class="transition hover:text-slate-950">
-                            Jl Perjuangan Nomor 11 F Kebon Jeruk, Kota Adm Jakarta Barat, DKI Jakarta 11530
+                            PT. Artha Teknologi Nusantara, Jl Perjuangan Nomor 11 F Kebon Jeruk, Kota Adm Jakarta Barat,
+                            DKI Jakarta 11530
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:artenu@artha.co.id" class="transition hover:text-brand-primary">
+                        <a href="mailto:artenu@artha.co.id" class="hover:text-brand-primary transition">
                             Email: artenu@artha.co.id
                         </a>
                     </li>
@@ -60,3 +64,4 @@
         </div>
     </div>
 </footer>
+
