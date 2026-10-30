@@ -1,5 +1,5 @@
 <!-- HERO SECTION -->
-<section id="hero" class="relative overflow-hidden border-b border-slate-200/70 pb-24 pt-20 md:pb-32 md:pt-28">
+<section id="hero" class="md:pt-25 relative overflow-hidden border-b border-slate-200/70 pb-24 pt-20 md:pb-32">
     <div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 
         <!-- Trust Badge -->
