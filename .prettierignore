@@ -1,0 +1,11 @@
+/vendor
+/node_modules
+/public/build
+/public/storage
+/storage
+/.phpunit.cache
+/bootstrap/cache
+package-lock.json
+composer.lock
+.env
+.env.*
