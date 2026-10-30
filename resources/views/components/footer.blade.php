@@ -56,7 +56,7 @@
 
         <div
             class="mt-12 flex flex-col items-center justify-between border-t border-slate-200/80 pt-8 text-xs text-slate-600 sm:flex-row">
-            <p>&copy; {{ date("Y") }} PT Arta Teknologi Nusantara. {{ __("messages.footer.rights") }}</p>
+            <p>&copy; {{ date("Y") }} PT Artha Teknologi Nusantara. {{ __("messages.footer.rights") }}</p>
             <div class="mt-4 flex gap-6 sm:mt-0">
                 <a href="#" class="transition hover:text-slate-900">{{ __("messages.footer.privacy") }}</a>
                 <a href="#" class="transition hover:text-slate-900">{{ __("messages.footer.terms") }}</a>
