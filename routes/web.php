@@ -16,7 +16,7 @@ Route::get('/', function () {
         session(['locale' => request('lang')]);
     }
 
-    $locale = session('locale', 'id');
+    $locale = session('locale', config('app.locale', 'en'));
     app()->setLocale($locale);
 
     return view('home', compact('locale'));
