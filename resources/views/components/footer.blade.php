@@ -36,8 +36,9 @@
                     <li>
                         <a href="https://www.google.com/maps/dir/PT.ARMADA+LOGISTIC+INDONESIA,+Jl.+Perjuangan+No.11F,+RT.1%2FRW.7,+Kb.+Jeruk,+Kec.+Kb.+Jeruk,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11530/Kosan+40,+RQ47%2BHQ6,+RT.9%2FRW.10,+Kb.+Jeruk,+Kec.+Kb.+Jeruk,+Kota+Jakarta+Barat,+Daerah+Khusus+Ibukota+Jakarta+11530/@-6.1937755,106.7610947,911m/data=!3m1!1e3!4m13!4m12!1m5!1m1!1s0x2e69f7006d60d671:0xb3bb7fef6b2b468f!2m2!1d106.7590156!2d-6.1910954!1m5!1m1!1s0x2e69f7d805b725e3:0x27c9dea71249acb3!2m2!1d106.76438!2d-6.1936068?entry=ttu&g_ep=EgoyMDI2MTAwNy4wIKXMDSoASAFQAw%3D%3D"
                             target="_blank" class="transition hover:text-slate-950">
-                            PT. Artha Teknologi Nusantara, Jl Perjuangan Nomor 11 F Kebon Jeruk, Jakarta Barat,
-                            DKI Jakarta 11530
+                            PT. Artha Teknologi Nusantara <br />
+                            Jl. Perjuangan 11 F, Kebon Jeruk, <br />Jakarta 11530
+
                         </a>
                     </li>
                     <li>

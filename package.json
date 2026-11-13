@@ -5,7 +5,8 @@
     "scripts": {
         "build": "vite build",
         "dev": "vite",
-        "format": "prettier --write \"resources/**/*.{blade.php,js,css}\""
+        "format": "prettier --write \"resources/**/*.{blade.php,js,css}\"",
+        "export": "php artisan site:export"
     },
     "devDependencies": {
         "@shufo/prettier-plugin-blade": "^1.16.3",

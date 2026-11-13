@@ -9,15 +9,15 @@
 
         <!-- Desktop Navigation -->
         <nav class="hidden items-center gap-8 text-sm font-medium text-slate-700 md:flex">
-            <a href="{{ url("/#hero") }}"
+            <a href="#hero"
                 class="hover:text-brand-primary transition-colors">{{ __("messages.nav.home") }}</a>
-            <a href="{{ url("/#layanan") }}"
+            <a href="#layanan"
                 class="hover:text-brand-primary transition-colors">{{ __("messages.nav.services") }}</a>
-            <a href="{{ url("/#portofolio") }}"
+            <a href="#portofolio"
                 class="hover:text-brand-primary transition-colors">{{ __("messages.nav.case_studies") }}</a>
-            <a href="{{ url("/#tentang") }}"
+            <a href="#tentang"
                 class="hover:text-brand-primary transition-colors">{{ __("messages.nav.about") }}</a>
-            <a href="{{ url("/#kontak") }}"
+            <a href="#kontak"
                 class="hover:text-brand-primary transition-colors">{{ __("messages.nav.contact") }}</a>
         </nav>
 
@@ -61,15 +61,15 @@
     <!-- Mobile Navigation Drawer -->
     <div id="mobile-menu" class="hidden border-b border-slate-200/80 bg-[#FBFBFA] px-4 pb-6 pt-2 md:hidden">
         <nav class="flex flex-col space-y-2 font-medium text-slate-700">
-            <a href="{{ url("/#hero") }}"
+            <a href="#hero"
                 class="mobile-nav-link hover:text-brand-primary rounded-lg px-3 py-2 transition hover:bg-slate-100">{{ __("messages.nav.home") }}</a>
-            <a href="{{ url("/#layanan") }}"
+            <a href="#layanan"
                 class="mobile-nav-link hover:text-brand-primary rounded-lg px-3 py-2 transition hover:bg-slate-100">{{ __("messages.nav.services") }}</a>
-            <a href="{{ url("/#portofolio") }}"
+            <a href="#portofolio"
                 class="mobile-nav-link hover:text-brand-primary rounded-lg px-3 py-2 transition hover:bg-slate-100">{{ __("messages.nav.case_studies") }}</a>
-            <a href="{{ url("/#tentang") }}"
+            <a href="#tentang"
                 class="mobile-nav-link hover:text-brand-primary rounded-lg px-3 py-2 transition hover:bg-slate-100">{{ __("messages.nav.about") }}</a>
-            <a href="{{ url("/#kontak") }}"
+            <a href="#kontak"
                 class="mobile-nav-link hover:text-brand-primary rounded-lg px-3 py-2 transition hover:bg-slate-100">{{ __("messages.nav.contact") }}</a>
 
             <div class="flex items-center justify-between border-t border-slate-200/80 pt-3">
